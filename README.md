@@ -22,8 +22,11 @@ Each dataset is provided as a MATLAB `.mat` file containing the multi-view featu
 | MIRFlickr | 25,000 | 6 | — | 11 | 38 |
 
 ## References
-[1] P. Duygulu, K. Barnard, J. F. G. de Freitas, and D. A. Forsyth. “Object Recognition as Machine Translation: Learning a Lexicon for a Fixed Image Vocabulary.” *ECCV*, 2002. [Paper](https://ora.ox.ac.uk/objects/uuid%3A92e538e8-10b7-461a-9f8e-db525ab8fdf4)//
-[2] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. “The PASCAL Visual Object Classes (VOC) Challenge.” *International Journal of Computer Vision*, 2010. [Paper](https://www.robots.ox.ac.uk/~vgg/publications/2010/Everingham10/)//
-[3] L. von Ahn and L. Dabbish. “Labeling Images with a Computer Game.” *CHI*, 2004. [Paper](https://doi.org/10.1145/985692.985733)//
-[4] M. Grubinger, P. Clough, H. Müller, and T. Deselaers. “The IAPR TC-12 Benchmark: A New Evaluation Resource for Visual Information Systems.” *LREC Workshop*, 2006. [Paper](https://www-i6.informatik.rwth-aachen.de/publications/download/34/Grubinger-LREC-2006.pdf)//
+[1] P. Duygulu, K. Barnard, J. F. G. de Freitas, and D. A. Forsyth. “Object Recognition as Machine Translation: Learning a Lexicon for a Fixed Image Vocabulary.” *ECCV*, 2002. [Paper](https://ora.ox.ac.uk/objects/uuid%3A92e538e8-10b7-461a-9f8e-db525ab8fdf4)
+
+[2] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. “The PASCAL Visual Object Classes (VOC) Challenge.” *International Journal of Computer Vision*, 2010. [Paper](https://www.robots.ox.ac.uk/~vgg/publications/2010/Everingham10/)
+[3] L. von Ahn and L. Dabbish. “Labeling Images with a Computer Game.” *CHI*, 2004. [Paper](https://doi.org/10.1145/985692.985733)
+
+[4] M. Grubinger, P. Clough, H. Müller, and T. Deselaers. “The IAPR TC-12 Benchmark: A New Evaluation Resource for Visual Information Systems.” *LREC Workshop*, 2006. [Paper](https://www-i6.informatik.rwth-aachen.de/publications/download/34/Grubinger-LREC-2006.pdf)
+
 [5] M. J. Huiskes and M. S. Lew. “The MIR Flickr Retrieval Evaluation.” *ACM MIR*, 2008. [Paper](https://doi.org/10.1145/1460096.1460104)
