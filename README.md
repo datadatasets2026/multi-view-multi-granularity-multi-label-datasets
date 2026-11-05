@@ -1,8 +1,8 @@
-# Multi-View Multi-Granularity Benchmarks
+# Multi-View Multi-Granularity Multi-Label Benchmarks
 
 This collection extends five public multi-view benchmarks with coarse-grained label annotations. The underlying image datasets are Corel5K [1], Pascal07 [2], ESPGame [3], IAPRTC12 [4], and MIRFlickr [5]. For each benchmark, we use the six precomputed feature views as provided and retain the original fine-grained annotations. The same six-view feature setup is documented by Yan et al. [6].
 
-## Dataset Construction
+## Multi-Granularity Labels Construction
 
 1. **Compute label affinities.** At the current granularity, estimate label occurrence and co-occurrence probabilities from the binary annotations. Combine Jaccard similarity, nonnegative normalized pointwise mutual information, and the mean of the two directional conditional probabilities to compute pairwise label affinities.
 2. **Group labels.** Set the number of groups based on the size of the current label set. Seed each group with a different label, selecting the most frequent labels as seeds. Assign the remaining labels in decreasing order of frequency. For each candidate group, score the assignment by subtracting a penalty for group size and sample coverage from the average affinity between the label and the current group members. The penalty is evaluated after adding the candidate label. Sample coverage is the fraction of samples with at least one label in the resulting group.
